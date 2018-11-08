@@ -10,9 +10,9 @@ name = "neon_bigint_task"
 crate-type = ["dylib"]
 
 [build-dependencies]
-neon-build = { path = "/Users/dherman/Sources/neon-dherman/crates/neon-build" }
+neon-build = "0.2.0"
 
 [dependencies]
-neon = { path = "/Users/dherman/Sources/neon-dherman" }
+neon = "0.2.0"
 num-bigint = "0.2"
 num-traits = "0.2"
